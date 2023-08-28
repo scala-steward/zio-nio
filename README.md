@@ -6,7 +6,7 @@
 
 [ZIO NIO](https://zio.dev/zio-nio) is a ZIO wrapper on Java NIO, an opinionated interface with deep ZIO integration that provides type and resource safety.
 
-[![Development](https://img.shields.io/badge/Project%20Stage-Development-green.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/zio-nio/workflows/CI/badge.svg) [![Sonatype Releases](https://img.shields.io/nexus/r/https/oss.sonatype.org/dev.zio/zio-nio_2.13.svg?label=Sonatype%20Release)](https://oss.sonatype.org/content/repositories/releases/dev/zio/zio-nio_2.13/) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-nio_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-nio_2.13/) [![javadoc](https://javadoc.io/badge2/dev.zio/zio-nio-docs_2.13/javadoc.svg)](https://javadoc.io/doc/dev.zio/zio-nio-docs_2.13) [![ZIO NIO](https://img.shields.io/github/stars/zio/zio-nio?style=social)](https://github.com/zio/zio-nio)
+[![Development](https://img.shields.io/badge/Project%20Stage-Development-green.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/zio-nio/workflows/CI/badge.svg) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-nio_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-nio_2.13/) [![ZIO NIO](https://img.shields.io/github/stars/zio/zio-nio?style=social)](https://github.com/zio/zio-nio)
 
 ## Introduction
 
@@ -46,8 +46,8 @@ ZIO NIO comes in two flavors:
 In order to use this library, we need to add one of the following lines in our `build.sbt` file:
 
 ```scala
-libraryDependencies += "dev.zio" %% "zio-nio-core" % "2.0.0"
-libraryDependencies += "dev.zio" %% "zio-nio"      % "2.0.0" 
+libraryDependencies += "dev.zio" %% "zio-nio-core" % "<version>"
+libraryDependencies += "dev.zio" %% "zio-nio"      % "<version>" 
 ```
 
 ## Example
